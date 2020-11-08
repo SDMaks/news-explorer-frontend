@@ -1,0 +1,19 @@
+{
+  "name": "news-explorer-frontend",
+  "version": "0.0.1",
+  "description": "фронтенд дипломного проекта",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDMaks/news-explorer-frontend.git"
+  },
+  "author": "Максим Шумейко",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SDMaks/news-explorer-frontend/issues"
+  },
+  "homepage": "https://github.com/SDMaks/news-explorer-frontend#readme"
+}
