@@ -1,0 +1,15 @@
+.menu__list-item {
+    margin: 0;
+    
+    padding: 0;
+}
+
+
+@media screen and (min-width : 319px) and (max-width : 767px) {
+
+.menu__list-item {
+  margin-bottom: 29px;
+
+}
+
+}

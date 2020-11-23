@@ -1,0 +1,12 @@
+@import url(./__info/loading__info.css);
+@import url(./_disabled/loading_disabled.css);
+
+
+.loading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F6F7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

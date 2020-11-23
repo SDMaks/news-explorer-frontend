@@ -1,0 +1,66 @@
+@import url(../../button/button.css);
+
+.header__button {
+  height: 64px;
+  background-color: #2f71e5;
+  padding-left: 54px;
+  padding-right: 54px;
+  border-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Roboto";
+  box-shadow: 0 5px 15px rgba(14, 26, 57, 0.2);
+  color: white;
+}
+
+.header__button:hover {
+    background-color: #347EFF;
+
+}
+
+@media screen and (min-width : 319px) and (max-width : 339px) {
+
+  .header__button {
+  
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 13px;
+    padding-bottom: 21px;
+    margin-top: 0;
+    width: 89vw;
+    height: 56px;
+      
+  }
+}
+
+@media screen and (min-width : 340px) and (max-width : 767px) {
+  .header__button {
+  
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 13px;
+    padding-bottom: 21px;
+    margin-top: 0;
+    width: 99%;
+    height: 56px;
+      
+  }
+
+
+}
+
+@media screen and (min-width : 768px) and (max-width : 1439px) {
+  .header__button {
+  
+    height: 56px;
+      
+  }
+
+
+}

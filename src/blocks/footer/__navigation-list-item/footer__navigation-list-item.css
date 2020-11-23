@@ -1,0 +1,17 @@
+.footer__navigation-list-item {
+  margin-left: 38px;
+}
+
+@media screen and (min-width: 319px) and (max-width: 425px) {
+  .footer__navigation-list-item {
+    margin-left: 0px;
+    margin-bottom: 23px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1439px) {
+  .footer__navigation-list-item {
+    margin-left: 10px;
+
+  }
+}

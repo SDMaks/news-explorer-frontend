@@ -1,0 +1,49 @@
+@import url(./__title/news-card__title.css);
+@import url(./__grid/news-card__grid.css);
+@import url(./__add-button/news-card__add-button.css);
+@import url(./_disabled/news-card_disabled.css);
+@import url(./_saved-position/news-card_saved-position.css);
+
+.news-card {
+    margin: 0 auto;
+    padding-left: 104px;
+    padding-right: 104px;
+    background-color: #F5F6F7;
+    
+}
+
+@media screen and (min-width : 319px) and (max-width : 374px) {
+
+    .news-card {
+    
+        padding-left: 16px;
+        padding-right: 16px;
+        
+    }
+  }
+
+  @media screen and (min-width : 375px) and (max-width : 619px) {
+
+    .news-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+  }
+
+  @media screen and (min-width : 620px) and (max-width : 767px) {
+
+    .news-card {
+       padding: 16px;
+        
+    }
+  }
+
+  @media screen and (min-width : 768px) and (max-width : 1439px) {
+
+    .news-card {
+       padding: 40px;
+        
+    }
+  }

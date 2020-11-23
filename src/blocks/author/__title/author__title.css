@@ -1,0 +1,33 @@
+.author__title {
+  color: #1a1b22;
+  font-family: 'Roboto Slab', Arial, sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+
+@media screen and (min-width : 319px) and (max-width : 767px) {
+
+    .author__title {
+    
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 16px;
+        
+    }
+  }
+
+  @media screen and (min-width : 768px) and (max-width : 1439px) {
+
+    .author__title {
+    
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 12px;
+        
+    }
+  }

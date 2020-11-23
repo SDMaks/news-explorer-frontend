@@ -1,0 +1,13 @@
+.popup__switch-blue {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    cursor: pointer;
+    color: #2F71E5;
+    
+    margin-top: 16px;
+    margin-bottom: 0; 
+}

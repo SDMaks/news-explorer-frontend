@@ -1,0 +1,11 @@
+@import url(./__title/no-result__title.css);
+@import url(./__info/no-result__info.css);
+@import url(./_disabled/no-result_disabled.css);
+
+.no-result {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    background-color: #F5F6F7;
+}

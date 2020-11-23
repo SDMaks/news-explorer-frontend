@@ -1,0 +1,42 @@
+.news-card__title {
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  color: #1a1b22;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 64px;
+}
+
+
+@media screen and (min-width : 319px) and (max-width : 767px) {
+
+    .news-card__title {
+    
+        font-size: 30px;
+        line-height: 34px;
+        padding-top: 32px;
+        padding-bottom: 24px;
+        
+    }
+  }
+
+  @media screen and (min-width : 375px) and (max-width : 600px) {
+
+    .news-card__title {
+        text-align: center;
+        
+    }
+  }
+
+  @media screen and (min-width : 600px) and (max-width : 1439px) {
+
+    .news-card__title {
+        padding-top: 0;
+        padding-bottom: 32px;
+        font-size: 30px;
+        line-height: 34px;
+    }
+  }

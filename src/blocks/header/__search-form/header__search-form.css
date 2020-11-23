@@ -1,0 +1,33 @@
+
+@media screen and (min-width : 768px) {
+.header__search-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 608px;
+    margin-top: 64px;
+    border-radius: 100px;
+    background: #FFFFFF;
+    border: 1px solid #D1D2D6;
+}
+}
+
+@media screen and (min-width : 319px) and (max-width : 767px) {
+
+    .header__search-form {
+    
+        margin-top: 122px;
+        padding-left: 16px;
+        padding-right: 16px;
+        
+    }
+  }
+
+  @media screen and (min-width : 768px) and (max-width : 1439px) {
+
+    .header__search-form {
+    
+        margin-top: 47px;
+        
+    }
+  }

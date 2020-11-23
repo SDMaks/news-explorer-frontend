@@ -1,0 +1,36 @@
+@import url(./_white/menu__button_white.css);
+@import url(../../log-out/log-out.css);
+@import url(../../log-in/log-in.css);
+@import url(../../button/button.css);
+@import url(./_black/menu__button_black.css);
+
+.menu__button {
+  margin-left: 32px;
+
+  outline: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 11.87px;
+  padding-bottom: 13px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .menu__button {
+    margin-left: 16px;
+    padding: 16px 64px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .menu__button {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    margin-left: 17px;
+  }
+}

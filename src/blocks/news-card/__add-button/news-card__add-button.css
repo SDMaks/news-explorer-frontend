@@ -1,0 +1,76 @@
+.news-card__add-button {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+  padding-left: 84px;
+  padding-right: 84px;
+  padding-top: 18px;
+  padding-bottom: 21px;
+  margin-left: calc(50% - 143px);
+  background-color: white;
+  border-style: none;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.news-card__add-button:hover {
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+    background-color: #E6E8EB;
+}
+
+@media screen and (min-width : 319px) and (max-width : 320px) {
+
+    .news-card__add-button {
+    
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 15px;
+        margin-bottom: 32px;
+        width: 100%;
+        margin-left: 0;
+        
+    }
+  }
+  @media screen and (min-width : 321px) and (max-width : 619px) {
+
+    .news-card__add-button {
+    
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 15px;
+        margin-bottom: 32px;
+        width: 288px;
+        margin-left: 0;
+    }
+  }
+
+  @media screen and (min-width : 619px) and (max-width : 767px) {
+
+    .news-card__add-button {
+    
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 15px;
+        margin-bottom: 32px;
+        width: 288px;
+        margin-left: calc(50% - 143px);
+    }
+  }
+
+
+  @media screen and (min-width : 768px) and (max-width : 1439px) {
+
+    .news-card__add-button {
+    
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 22px;
+        margin-bottom: 0px;
+        width: 240px;
+        margin-left: calc(50% - 120px);
+    }
+  }

@@ -1,0 +1,36 @@
+.card__article-text {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1a1b22;
+  margin: 0;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .card__article-text {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .card__article-text {
+    padding-left: 16px;
+
+    padding-top: 9px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

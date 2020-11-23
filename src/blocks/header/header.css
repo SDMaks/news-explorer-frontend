@@ -1,0 +1,31 @@
+@import url(./__menu/header__menu.css);
+@import url(./__logo/header__logo.css);
+@import url(./__search/header__search.css);
+@import url(./__main-title/header__main-title.css);
+@import url(./__main-subtitle/header__main-subtitle.css);
+@import url(./__search-content/header__search-content.css);
+@import url(./__search-form/header__search-form.css);
+@import url(./__input/header__input.css);
+@import url(./__button/header__button.css);
+@import url(./__popup-button/header__popup-button.css);
+@import url(./__popup-button-close/header__popup-button-close.css);
+@import url(./_picture/header_picture.css);
+@import url(./_saved-article/header_saved-article.css);
+@import url(./__saved-article/header__saved-article.css);
+@import url(./__saved-article-content/header__saved-article-content.css);
+@import url(./__saved-article-info/header__saved-article-info.css);
+@import url(./__saved-article-title/header__saved-article-title.css);
+@import url(./__saved-article-key-word/header__saved-article-key-word.css);
+@import url(./__saved-article-key-word-number/header__saved-article-key-word-number.css);
+
+.header {
+  margin: 0 auto;
+  
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+    
+
+}
+

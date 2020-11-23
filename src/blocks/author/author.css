@@ -1,0 +1,39 @@
+@import url(./__picture/author__picture.css);
+@import url(./__content/author__content.css);
+@import url(./__title/author__title.css);
+@import url(./__text/author__text.css);
+
+.author {
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 104px;
+  padding-right: 216px;
+}
+
+@media screen and (min-width: 319px) and (max-width: 650px) {
+  .author {
+    flex-direction: column;
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 767px) {
+  .author {
+    padding-top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .author {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 46px;
+  }
+}

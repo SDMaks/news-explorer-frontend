@@ -1,0 +1,32 @@
+.card__article-title {
+  font-family: "Roboto Slab", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #1a1b22;
+  margin: 0;
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .card__article-title {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 9px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .card__article-title {
+    padding-left: 16px;
+    padding-top: 12px;
+    font-size: 22px;
+    font-size: 22px;
+    line-height: 24px;
+  }
+}

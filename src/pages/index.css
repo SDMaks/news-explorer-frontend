@@ -1,0 +1,15 @@
+@import '../../node_modules/normalize.css/normalize.css';
+@import url(../vendor/font.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/no-result/no-result.css);
+@import url(../blocks/author/author.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/loading/loading.css);
+@import url(../blocks/preloader/preloader.css);
+@import url(../blocks/news-card/news-card.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/mobile-popup-mask/mobile-popup-mask.css);
+@import url(../blocks/log-out-mobile/log-out-mobile.css);

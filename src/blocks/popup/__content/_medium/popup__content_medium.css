@@ -1,0 +1,19 @@
+.popup__content_medium {
+    min-height: 383px;
+    padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 34px;
+  padding-bottom: 28px;
+}
+
+@media screen and (min-width : 319px) and (max-width : 767px) {
+
+    .popup__content_medium {
+    
+        margin-top: 56px;
+        padding-left: 17px;
+        padding-top: 16px;
+        padding-right: 17px;
+        
+    }
+  }

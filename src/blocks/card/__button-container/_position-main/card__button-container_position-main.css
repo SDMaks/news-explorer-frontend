@@ -1,0 +1,23 @@
+.card__button-container_position-main {
+    right: 24px;
+}
+
+@media screen and (min-width : 319px) and (max-width : 767px) {
+
+    .card__button-container_position-main {
+    
+        top: 16px;
+        right: 16px;
+        
+    }
+  }
+
+@media screen and (min-width : 768px) and (max-width : 1439px) {
+
+    .card__button-container_position-main {
+    
+        top: 8px;
+        right: 8px;
+        
+    }
+}

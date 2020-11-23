@@ -1,0 +1,7 @@
+@import url(./__circle/preloader__circle.css);
+
+.preloader {
+   position: relative;
+   width: 74px;
+   height: 74px;
+}

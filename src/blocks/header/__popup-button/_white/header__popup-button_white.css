@@ -1,0 +1,7 @@
+
+@media screen and (min-width : 319px) and (max-width : 767px) {
+.header__popup-button_white {
+    background-image: url("../../../../images/mobile_menu-popup.png");
+}
+
+}

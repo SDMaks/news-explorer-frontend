@@ -1,0 +1,21 @@
+.card__button-icon-delete {
+    width: 40px;
+    height: 40px;
+    background-image: url('../../../images/trash-grey.png');
+    
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    
+    padding: 0;
+}
+
+.card__button-icon-delete:hover {
+   
+    background-image: url('../../../images/trash-black.png');
+    
+    
+}

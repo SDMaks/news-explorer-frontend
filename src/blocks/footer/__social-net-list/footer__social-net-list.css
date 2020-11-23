@@ -1,0 +1,9 @@
+.footer__social-net-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: baseline;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
