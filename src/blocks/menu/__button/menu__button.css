@@ -3,6 +3,7 @@
 @import url(../../log-in/log-in.css);
 @import url(../../button/button.css);
 @import url(./_black/menu__button_black.css);
+@import url(./_white-news/menu__button_white-news.css);
 
 .menu__button {
   margin-left: 32px;
@@ -25,7 +26,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 767px) and (max-width: 1439px) {
   .menu__button {
     font-size: 16px;
     line-height: 24px;

@@ -1,19 +1,17 @@
+@import url(./_grey/card__button-icon_grey.css);
+@import url(./_blue/card__button-icon_blue.css);
+@import url(./_black/card__button-icon_black.css);
+
 .card__button-icon {
     width: 40px;
     height: 40px;
-    background-image: url('../../../images/Rectangle_grey.png');
-    /*padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 10px;
-    background: #FFFFFF;
-    background-repeat: no-repeat;*/
     cursor: pointer;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #FFFFFF;
     border: none;
     border-radius: 10px;
-    
+
     padding: 0;
-    
+
 }

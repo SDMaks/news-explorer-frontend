@@ -1,0 +1,9 @@
+
+
+
+@media screen and (min-width : 768px)  {
+.active-page_black {
+  border-bottom: solid black;
+}
+
+}

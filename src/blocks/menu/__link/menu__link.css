@@ -1,8 +1,10 @@
 @import url(../../log-out/log-out.css);
 @import url(../../active-page/active-page.css);
+@import url(../../active-page/_black/active-page_black.css);
 @import url(./_grey/menu__link_grey.css);
 @import url(./_white/menu__link_white.css);
 @import url(./_black/menu__link_black.css);
+@import url(./_white-main/menu__link_white-main.css);
 
 .menu__link {
     font-style: normal;
@@ -13,20 +15,21 @@
     padding-bottom: 24px;
     cursor: pointer;
     text-decoration: none;
+    margin-bottom: 0;
 }
 
 @media screen and (min-width : 319px) and (max-width : 767px) {
     .menu__link {
-        
+
         margin-left: 16px;
-        
-        
+
+
     }
 }
 
-@media screen and (min-width : 768px) and (max-width : 1439px) {
+@media screen and (min-width : 767px) and (max-width : 1439px) {
     .menu__link {
-        
+
         margin-left: 16px;
         font-size: 16px;
         line-height: 24px;

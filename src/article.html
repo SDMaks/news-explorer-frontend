@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +7,23 @@
   <link rel="icon" href="<%=require('./images/favicon.png')%>">
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css%>">
   <title>News</title>
-
 </head>
-
-<body class="body body_mobile-fixed-popup">
+<body id="save-news" class="body ">
   <header class="header header_saved-article">
     <div class="header__menu header__menu_saved-article header__menu_shadow-grey">
       <p class="header__logo">NewsExplorer</p>
       <button class="header__popup-button header__popup-button_black header__popup-button_active"></button>
-      <button class="header__popup-button-close header__popup-button-close_active"></button>
-      <nav class="menu menu_active">
+      <button class="header__popup-button-close "></button>
+      <nav class="menu ">
         <ul class="menu__list">
           <li class="menu__list-item">
-            <a class="menu__link menu__link_black" href="./index.html">Главная</a>
+            <a class="menu__link menu__link_black menu__link_white-main " href="./">Главная</a>
           </li>
-          <li class="menu__list-item ">
-            <a class="menu__link active-page-grey " href="./article.html">Сохранённые статьи</a>
+          <li id="li-save-articles-news" class="menu__list-item ">
+            <p class="menu__link menu__link_white-main active-page_black" >Сохранённые статьи</p>
           </li>
-          <li class="menu__list-item ">
-            <button class="menu__button menu__button_black button log-out">Авторизоваться</button>
-          </li>
-          <li class="menu__list-item ">
-            <button class="menu__button menu__button_black button">
+          <li id="li-log-out-news" class="menu__list-item ">
+            <button id="menuButtonNews" class="menu__button menu__button_black menu__button_white-news button">
               <span class="menu__button-container">
                 <span class="menu__button-span menu__button-span_white">Грета</span>
                 <img class="menu__button-logo-out" src="<%=require('./images/logout-black.png')%>" alt="кнопка выхода">
@@ -46,61 +40,22 @@
           <span class="header__saved-article-title-user">Грета</span>, у вас
           <span class="header__saved-article-title-number">5</span> сохраненных статей
         </h2>
-        <p class="header__saved-article-key-word">По ключевым словам:
-          <span class="header__saved-article-key-word-number">Природа, Тайга и 2-м другим</span>
+        <p class="header__saved-article-key-word ">По ключевым словам:
+          <span id="first-key" class="header__saved-article-key-word-number header__saved-article-key-word-number_disabled">Природа</span>
+          <span id="second-key" class="header__saved-article-key-word-number header__saved-article-key-word-number_disabled">, Тайга</span>
+          <span id="third-key" class="header__saved-article-key-word-number header__saved-article-key-word-number_disabled">и 2-м другим</span>
         </p>
       </div>
     </div>
   </header>
   <main class="content">
-    <section class="news-card news-card_saved-position">
-      <div class="news-card__grid">
-        <div class="card">
-          <div class="card__button-container card__button-container_position">
-            <span class="card__button-info-card">Природа</span>
-            <button class="card__button-icon-delete"></button>
-          </div>
-          <img class="card__image" alt="картинка к статье" src="<%=require('./images/test_1.png')%>">
-          <a class="card__article-container" href="https://lenta.ru/" target="_blank">
-            <p class="card__article-date">2 августа, 2019</p>
-            <h2 class="card__article-title">Национальное достояние – парки</h2>
-            <p class="card__article-text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
-              складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к
-              природе.</p>
-            <p class="card__article-url">Лента.ру</p>
-          </a>
-
-        </div>
-        <div class="card">
-          <div class="card__button-container card__button-container_position">
-            <span class="card__button-info-card">Природа</span>
-            <button class="card__button-icon-delete"></button>
-          </div>
-          <img class="card__image" alt="картинка к статье" src="<%=require('./images/test_2.png')%>">
-          <a class="card__article-container" href="https://meduza.io/" target="_blank">
-            <p class="card__article-date">2 августа, 2019</p>
-            <h2 class="card__article-title">Лесные огоньки: история одной фотографии</h2>
-            <p class="card__article-text">Фотограф отвлеклась от освещения суровой политической реальности Мексики,
-              чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
-            <p class="card__article-url">Медуза</p>
-          </a>
-
-        </div>
-        <div class="card">
-          <div class="card__button-container card__button-container_position">
-            <span class="card__button-info-card">Природа</span>
-            <button class="card__button-icon-delete"></button>
-          </div>
-          <img class="card__image" alt="картинка к статье" src="<%=require('./images/test_3.png')%>">
-          <a class="card__article-container" href="https://ria.ru/" target="_blank">
-            <p class="card__article-date">2 августа, 2019</p>
-            <h2 class="card__article-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h2>
-            <p class="card__article-text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о
-              необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-            <p class="card__article-url">РИА</p>
-          </a>
-        </div>
-      </div>
+    <section id="news-card-saved" class="news-card news-card_saved-position">
+      <div id="saved-grid" class="news-card__grid">
+    </section>
+    <section id="no-result-saved" class="no-result no-result_disabled">
+      <img class="no-result__logo" src="<%=require('./images/not-found-face.png')%>" alt="логотип грустного человечка">
+      <h2 class="no-result__title">Ничего не найдено</h2>
+      <p class="no-result__info">К сожалению у Вас нет сохраненных статей.</p>
     </section>
   </main>
   <footer class="footer">
@@ -115,7 +70,6 @@
             <a class="footer__link" target="_blank" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
           </li>
         </ul>
-
       </nav>
       <nav class="footer__social-net">
         <ul class="footer__social-net-list">
@@ -131,12 +85,9 @@
           </li>
         </ul>
       </nav>
-
     </div>
-
   </footer>
-  <div class="mobile-popup-mask mobile-popup-mask_active"></div>
+  <div class="mobile-popup-mask "></div>
   <script type="module" src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
-
 </html>

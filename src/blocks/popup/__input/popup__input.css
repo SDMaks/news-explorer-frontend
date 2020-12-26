@@ -15,3 +15,8 @@
 .popup__input:focus {
     border-bottom: 1px solid #000000;
 }
+
+.popup__input:invalid {
+
+  outline: 1px solid red;
+ }

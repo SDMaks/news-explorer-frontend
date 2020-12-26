@@ -1,0 +1,7 @@
+@media screen and (max-width: 767px) {
+.menu__button.menu__button_white-news {
+    color: white;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+}
+}

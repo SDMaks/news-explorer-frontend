@@ -1,0 +1,7 @@
+@media screen and (max-width : 767px)  {
+  .body_mask {
+
+      z-index: 0;
+  }
+
+  }

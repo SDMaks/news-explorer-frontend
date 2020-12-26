@@ -1,3 +1,5 @@
+@import url(./_disactive/news-card__add-button_disactive.css);
+
 .news-card__add-button {
   font-family: 'Roboto', Arial, sans-serif;
   font-style: normal;
@@ -25,20 +27,20 @@
 @media screen and (min-width : 319px) and (max-width : 320px) {
 
     .news-card__add-button {
-    
+
         padding-left: 16px;
         padding-right: 16px;
         margin-top: 15px;
         margin-bottom: 32px;
         width: 100%;
         margin-left: 0;
-        
+
     }
   }
   @media screen and (min-width : 321px) and (max-width : 619px) {
 
     .news-card__add-button {
-    
+
         padding-left: 16px;
         padding-right: 16px;
         margin-top: 15px;
@@ -51,7 +53,7 @@
   @media screen and (min-width : 619px) and (max-width : 767px) {
 
     .news-card__add-button {
-    
+
         padding-left: 16px;
         padding-right: 16px;
         margin-top: 15px;
@@ -65,7 +67,7 @@
   @media screen and (min-width : 768px) and (max-width : 1439px) {
 
     .news-card__add-button {
-    
+
         padding-left: 16px;
         padding-right: 16px;
         margin-top: 22px;

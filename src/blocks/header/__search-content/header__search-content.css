@@ -2,11 +2,11 @@
     max-width: 608px;
 }
 
-@media screen and (min-width : 768px) and (max-width : 1439px) {
+@media screen and (min-width : 767px) and (max-width : 1439px) {
 
     .header__search-content {
-    
+
       width: 59vw;
-        
+
     }
   }

@@ -21,7 +21,7 @@
     background-color: rgba(0,0,0,.5);
     display: flex;
     z-index: 10;
-    
+
     display: flex;
     display: none;
 }
@@ -29,23 +29,23 @@
 @media screen and (min-width : 319px) and (max-width : 767px) {
 
     .popup {
-    
+
         margin-top: 0px;
         background-color: rgba(0,0,0,.5);
-        
+
         align-items: center;
     justify-content: center;
-        
+
     }
   }
 
-  @media screen and (min-width : 768px)  {
+  @media screen and (min-width : 767px)  {
 
     .popup {
-    
-       
+
+
         align-items: center;
     justify-content: center;
-        
+
     }
   }

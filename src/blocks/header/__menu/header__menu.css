@@ -4,9 +4,7 @@
 @import url(./_shadow-grey/header__menu_shadow-grey.css);
 
 .header__menu {
-    
     display: flex;
-   /* align-items: center; */
     justify-content: space-between;
 
 }

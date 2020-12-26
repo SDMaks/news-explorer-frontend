@@ -10,9 +10,9 @@
 @media screen and (min-width : 319px) and (max-width : 674px) {
 
     .footer__navigation-list {
-    
+
         flex-direction: column;
         padding-left: 0;
-        
+
     }
   }

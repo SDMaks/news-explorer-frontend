@@ -1,0 +1,9 @@
+.header__button.header__button_blue {
+  background-color: #2f71e5;
+  color: white;
+}
+
+.header__button.header__button_blue:hover {
+  background-color: #347EFF;
+
+}

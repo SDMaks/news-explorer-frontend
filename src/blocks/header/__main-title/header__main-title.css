@@ -15,26 +15,20 @@
 @media screen and (min-width : 319px) and (max-width : 767px) {
 
   .header__main-title {
-  
     font-size: 36px;
     line-height: 40px;
     padding-top: 30px;
     padding-left: 19px;
     padding-right: 16px;
-      
   }
 }
 
-@media screen and (min-width : 768px) and (max-width : 1439px) {
+@media screen and (min-width : 767px) and (max-width : 1439px) {
 
   .header__main-title {
-  
     font-size: 36px;
     line-height: 40px;
     max-width: 300px;
     padding-top: 38px;
-    /*padding-left: 19px;
-    padding-right: 16px;*/
-      
   }
 }

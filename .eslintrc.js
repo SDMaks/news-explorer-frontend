@@ -1,4 +1,10 @@
 module.exports = {
+  parser: 'babel-eslint',
+
+  globals: {
+    fetch: false,
+  },
+
   extends: [
     'airbnb-base',
   ],
@@ -6,6 +12,8 @@ module.exports = {
     ecmaVersion: 11,
   },
   rules: {
-    'no-underscore-dangle': ['error', { allow: ['_id'] }],
+    'import/prefer-default-export': 'off',
+    'no-underscore-dangle': 'off',
+
   },
 };

@@ -4,26 +4,26 @@
 .card__button-container {
     position: absolute;
     top: 24px;
-    
+
     display: flex;
 }
 
 @media screen and (min-width : 319px) and (max-width : 767px) {
 
     .card__button-container {
-    
+
         top: 16px;
-       
-        
+
+
     }
   }
 
-@media screen and (min-width : 768px) and (max-width : 1439px) {
+@media screen and (min-width : 767px) and (max-width : 1439px) {
 
    .card__button-container {
-    
+
         top: 8px;
-        
-        
+
+
     }
 }

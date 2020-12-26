@@ -1,5 +1,8 @@
-.menu__button_black {
+
+@media screen and (min-width: 768px) {
+.menu__button.menu__button_black {
     color: #1A1B22;
     border: 1px solid #1A1B22;
     background-color: transparent;
+}
 }
